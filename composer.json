@@ -59,10 +59,15 @@
 	  ],
 	  "web/app/plugins/{$name}/": [
 		"wpackagist-plugin/all-in-one-seo-pack",
-		"wpackagist-plugin/debug-bar"
+		"wpackagist-plugin/debug-bar",
+		"formidable",
+		"wordpress-importer",
+		"Ultimate_VC_Addons",
+		"js_composer"
 	  ],
 	  "web/app/themes/{$name}/": [
-		"type:wordpress-theme"
+		"type:wordpress-theme",
+		"genesis"
 	  ]
 	},
 	"dropin-paths": {
