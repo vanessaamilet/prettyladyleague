@@ -1219,7 +1219,7 @@ Site Header
 
 .site-title {
 	font-family: "Montserrat",sans-serif;
-	font-size: 65px;
+	font-size: 55px;
 	font-weight: 100;
 	letter-spacing: 3px;
 	line-height: 1.3;
@@ -1518,7 +1518,7 @@ Site Navigation
 --------------------------------------------- */
 
 .nav-primary {
-	background: #ffe9e2;
+	background: #febaab;
 	position: fixed;
 	top: 0;
 	width: 100%;
