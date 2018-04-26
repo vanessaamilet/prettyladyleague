@@ -334,6 +334,11 @@ add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 12;' ), 20 )
 /* ## ADMIN
 ---------------------------------------------------------------------------------------------------- */
 
+//* AWS ACCESS KEYS
+define( 'AS3CF_AWS_ACCESS_KEY_ID',     'AKIAIZDM4ML3ZAGR7BTA' );
+define( 'AS3CF_AWS_SECRET_ACCESS_KEY', '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' );
+
+
 //* REMOVE VISUAL COMPOSER EDIT LINK ON FRONT-END
 function vc_remove_frontend_links() {
 	vc_disable_frontend(); // this will disable frontend editor
